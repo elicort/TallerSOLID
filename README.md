@@ -7,3 +7,7 @@ Open-Closed Principle: porque si queremos añadir más postres se tenía que imp
 ## Literal 2
 Se violan los principios:
 OCP: agregar mas postres requeriria la modificacion de la clase.
+
+## Literal 3
+Se violan los principios:
+Single Responsability Principle: porque los métodos showPrecioFinal() y calcularPrecioFinal() no correspondían a las clases Helado y Pastel, que posteriormente fue Postre.
