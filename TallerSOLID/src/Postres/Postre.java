@@ -41,4 +41,12 @@ public class Postre {
     public String showPrecioFinal(){
         return "Precio Final: $ " + calcularPrecioFinal();
     }
+    
+    public void anadirAderezo(Aderezo aderezo){
+        getAderezos().add(aderezo);
+    }
+    
+    public void quitarAderezo(Aderezo aderezo){
+        getAderezos().remove(aderezo);
+    }
 }
