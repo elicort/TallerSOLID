@@ -11,3 +11,6 @@ OCP: agregar mas postres requeriria la modificacion de la clase.
 ## Literal 3
 Se violan los principios:
 Single Responsability Principle: porque los métodos showPrecioFinal() y calcularPrecioFinal() no correspondían a las clases Helado y Pastel, que posteriormente fue Postre.
+
+## Literal 4
+Dependency Inversion Principle: el uso de los aderezos dependian de una clase concreta, los modulos deben depender de abstracciones
