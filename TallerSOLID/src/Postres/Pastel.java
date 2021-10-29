@@ -16,15 +16,16 @@ public class Pastel extends Postre{
         
     
     public Pastel(String sabor){
-        super(sabor);
-        super.precioParcial = 15.55;
+        this.sabor=sabor;
+        aderezos= new ArrayList<>();
+        this.precioParcial = 15.55;
     }
     
     
 
     @Override
     public String toString() {
-        return "Helado{" + "sabor=" + sabor + ", precioParcial=" + precioParcial + ", aderezos=" + aderezos + '}';
+        return "Pastel{" + "sabor=" + sabor + ", precioParcial=" + precioParcial + ", aderezos=" + aderezos + '}';
     }
 
       

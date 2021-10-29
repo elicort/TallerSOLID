@@ -17,18 +17,12 @@ public class Postre {
     protected double precioParcial;
     protected ArrayList<Aderezo> aderezos;
     
-    public Postre(String sabor){
-        aderezos= new ArrayList<>();
-        this.sabor=sabor;
-        
+    public double getPrecioParcial() {
+        return precioParcial;
     }
     
-    public double calcularPrecioFinal(){
-        double precioFinal;
-        precioFinal=(precioParcial+(precioParcial*0.12))+(aderezos.size()*0.50);
-        return precioFinal;
-    }
-
+    
+    
     public ArrayList<Aderezo> getAderezos() {
         return aderezos;
     }
@@ -38,15 +32,4 @@ public class Postre {
         return "Postre{" + "sabor=" + sabor + ", precioParcial=" + precioParcial + ", aderezos=" + aderezos + '}';
     }
     
-    public String showPrecioFinal(){
-        return "Precio Final: $ " + calcularPrecioFinal();
-    }
-    
-    public void anadirAderezo(Aderezo aderezo){
-        getAderezos().add(aderezo);
-    }
-    
-    public void quitarAderezo(Aderezo aderezo){
-        getAderezos().remove(aderezo);
-    }
 }
