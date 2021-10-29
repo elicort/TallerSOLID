@@ -9,19 +9,14 @@ package Adicionales;
  *
  * @author gene
  */
-public class Frutilla extends Aderezo{
-
-    public Frutilla() {
-        super("Frutilla");
+public class Malvaviscos extends Aderezo{
+    
+    public Malvaviscos() {
+        super("Malvaviscos");
     }
 
     @Override
     public void setNombre(String nombre) {
-
         super.nombre = nombre;
     }
-
-  
- 
 }
-

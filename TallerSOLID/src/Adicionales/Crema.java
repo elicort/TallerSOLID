@@ -9,10 +9,10 @@ package Adicionales;
  *
  * @author gene
  */
-public class Frutilla extends Aderezo{
+public class Crema extends Aderezo{
 
-    public Frutilla() {
-        super("Frutilla");
+    public Crema() {
+        super("Crema");
     }
 
     @Override
