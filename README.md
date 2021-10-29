@@ -14,3 +14,8 @@ Single Responsability Principle: porque los métodos showPrecioFinal() y calcula
 
 ## Literal 4
 Dependency Inversion Principle: el uso de los aderezos dependian de una clase concreta, los modulos deben depender de abstracciones
+
+## Literal 5
+Se violan los principios:
+Liskov Substitution: porque usar usarPastel() con LecheDeslactosada nos podría lanzar una excepción.
+También OCP porque para cada leche hay que implementar cada tipo de Postre, si se agregan más postres, son más métodos, eso se corrigió.
